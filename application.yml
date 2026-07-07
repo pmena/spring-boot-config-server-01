@@ -42,5 +42,6 @@ logging:
     org.springframework.http: TRACE
     reactor.netty.http.server: DEBUG
     reactor.netty.http.client: DEBUG
-    io.r2dbc.h2: DEBUG
-    org.springframework.r2dbc: DEBUG
+    io.r2dbc.spi: DEBUG
+    io.r2dbc.h2: TRACE
+    org.springframework.r2dbc: TRACE
