@@ -11,10 +11,17 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:9010/realms/student-realm
-  r2dbc:
-    url: r2dbc:h2:tcp://localhost:9092/C:/h2/studentdb
+  datasource:
+    url: jdbc:h2:tcp://localhost/C:/h2/studentdb
+    driver-class-name: org.h2.Driver
     username: sa
     password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true    
 
   devtools:
     livereload:
