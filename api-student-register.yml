@@ -7,8 +7,6 @@ info:
     version: 1.0
     description: API de registro de alumnos
 
-
-
 spring:
   application:
     name: api-student-register
