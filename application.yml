@@ -51,3 +51,4 @@ logging:
     io.r2dbc.spi: DEBUG
     io.r2dbc.h2: TRACE
     org.springframework.r2dbc: TRACE
+    org.springframework.r2dbc.connection.init: DEBUG
