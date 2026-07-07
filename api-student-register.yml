@@ -1,7 +1,6 @@
 server:
   port: 8086
 
-
 info:
   app:
     name: Student Register API
