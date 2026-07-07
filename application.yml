@@ -29,7 +29,7 @@ spring:
       enabled: true
 
 management:
-  endpoints:
+  endpoint:
     web:
       exposure:
         include: "*"
