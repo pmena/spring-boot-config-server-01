@@ -1,0 +1,20 @@
+server:
+  port: 8086
+
+
+info:
+  app:
+    name: Student Register API
+    version: 1.0
+    description: API de registro de alumnos
+
+
+
+spring:
+  application:
+    name: api-student-register
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
